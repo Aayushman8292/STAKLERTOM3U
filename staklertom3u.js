@@ -8,13 +8,13 @@ async function handleRequest(request) {
   const playlist = searchParams.get('playlist') || '';
 
 
-  const domainName = 'tv.fusion4k.cc';
-  const macAddress = '00:1A:79:77:00:9C';
+  const domainName = 'tv.stream4k.cc';
+  const macAddress = '00:1A:79:00:45:2B';
   const portalAddress = `http://${domainName}`;
   const referer = `${portalAddress}/stalker_portal/c/`;
   const host = domainName;
-  const snumber = '204F6D53BttF9A498CE';
-  const deviceID = 'C18303143CE1361B8959F48AB3491969859177F571C7CDD08F5398F0365FA2FC';
+  const snumber = '379869BA538AB';
+  const deviceID = '9CA667A4B93908EC07C7389ED1DFB4E44E9FE6D44AD54529C5AEA4B072B59E33';
   const timezone = 'Europe%2FParis';
 
   const ipAddress = `49.244.${Math.floor(Math.random() * 256)}.${Math.floor(Math.random() * 256)}`;
